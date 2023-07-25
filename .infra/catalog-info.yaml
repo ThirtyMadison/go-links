@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    circleci.com/project-slug: github/ThirtyMadison/go-links
+    github.com/project-slug: ThirtyMadison/go-links
+  description: Go Links
+  labels:
+    has_frontend: 'False'
+  links:
+  - icon: github
+    title: Github
+    url: https://github.com/ThirtyMadison/go-links
+  name: go-links
+  tags:
+  - python
+spec:
+  dependsOn: []
+  lifecycle: production
+  type: service
